@@ -1,0 +1,5 @@
+venv/
+*.xlsx
+*.save
+__pycache__/
+.git/
