@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Floods</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Floods Prediction</h1>
+        <form action="/predict" method="POST">
+            <label>Cloud Cover %:</label> <input type="text" name="Cloud Cover" placeholder="Cloud Cover Percentage (%)" required>
+            <label>Annual Rain (mm):</label> <input type="text" name="ANNUAL" placeholder="Enter Annual Rain fall in mm" required>
+            <label>Jan-Feb Rain (mm):</label> <input type="text" name="Jan-Feb" placeholder="Jan-Feb Rainfall in mm" required>
+            <label>Mar-May Rain (mm):</label> <input type="text" name="Mar-May" placeholder="March-May Rainfall in mm" required>
+            <label>Jun-Sep Rain (mm):</label> <input type="text" name="Jun-Sep" placeholder="June-September Rainfall in mm" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>

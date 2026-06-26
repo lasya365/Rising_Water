@@ -1,0 +1,6 @@
+body { margin: 0; font-family: Arial, sans-serif; background: #f0f0f0; }
+.navbar { background: #333; padding: 15px; display: flex; justify-content: space-between; }
+.navbar a { color: white; text-decoration: none; padding: 0 20px; }
+.container { width: 60%; margin: 50px auto; background: #e8e8e8; padding: 30px; border: 1px solid #ccc; }
+input { width: 100%; padding: 10px; margin-bottom: 20px; }
+button { background: #555; color: white; padding: 10px 20px; border: none; }
