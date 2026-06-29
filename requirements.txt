@@ -8,9 +8,11 @@
 # joblib
 # openpyxl
 
-flask
-scikit-learn
+Flask
+gunicorn
 pandas
 numpy
+scikit-learn
 xgboost
 joblib
+openpyxl
