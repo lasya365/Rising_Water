@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import joblib
 import pandas as pd
-
+import os
 app = Flask(__name__)
 
 # Load the saved model and scaler
@@ -44,7 +44,7 @@ def predict():
             
     return render_template('index.html')
 
-import os
+
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
